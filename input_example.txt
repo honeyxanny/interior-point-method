@@ -1,0 +1,10 @@
+target_function: x1**2 + x2**2 + x3**2
+x: 1.0 1.0 1.0
+s: 1.0 1.0
+lambdas: 0.0
+mu: 0.1
+epsilon: 0.001
+constraints:
+x1**2 + x2 - 2 = 0
+x1**2 + x2**2 + x3**2 - 4 <= 0
+-x3 <= 0
